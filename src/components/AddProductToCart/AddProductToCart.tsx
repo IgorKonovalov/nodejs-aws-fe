@@ -32,7 +32,7 @@ export default function AddProductToCart({product}: AddProductToCartProps) {
             <IconButton onClick={() => dispatch(addToCart(product))}>
               <Add color={"secondary"}/>
             </IconButton>
-            </>
+          </>
         )
         :
         (
